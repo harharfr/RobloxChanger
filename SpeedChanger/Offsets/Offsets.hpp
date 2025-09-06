@@ -2,10 +2,12 @@
 #include <Windows.h>
 #include <iostream>
 
-// Version: 65664807ac1d4e85
+// Version: c1ac69007bdc4e48
 
 namespace Offsets {
-    inline uintptr_t FakeDatamodelPointer = 0x703A758;
+    // Only two that realy change, shouldn't need to change others at all
+
+    inline uintptr_t FakeDatamodelPointer = 0x7097018;
     inline uintptr_t FakeDatamodeltoRealDatamodel = 0x1C0;
 
     inline uintptr_t Children = 0x68;
