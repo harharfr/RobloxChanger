@@ -2,10 +2,10 @@
 #include <Windows.h>
 #include <iostream>
 
-// Version: 7a4a5d7d1fb3449f
+// Version: 889d2588b25a43d1
 
 namespace Offsets {
-    inline uintptr_t FakeDatamodelPointer = 0x7268A88;
+    inline uintptr_t FakeDatamodelPointer = 0x74287C8;
     inline uintptr_t FakeDatamodeltoRealDatamodel = 0x1C0;
 
     inline uintptr_t Children = 0x60;
@@ -15,13 +15,14 @@ namespace Offsets {
     inline uintptr_t ChildrenEnd = 0x8;
     inline uintptr_t ObjectValue = 0x100;
 
-    inline uintptr_t LocalPlayer = 0x120;
+    inline uintptr_t LocalPlayer = 0x130;
 
     inline uintptr_t Walkspeed = 0x1D4;
     inline uintptr_t WalkspeedCheck = 0x3A0;
     inline uintptr_t Jumppower = 0x1B0;
     inline uintptr_t FOV = 0x160;
 }
+
 
 namespace Globals {
     inline uintptr_t datamodel;
